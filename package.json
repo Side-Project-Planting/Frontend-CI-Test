@@ -25,9 +25,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "./node_modules/.bin/eslint src/**/*.(tsx|ts|js|jsx)",
-    "pretty": "./node_modules/.bin/prettier src/**/*.(tsx|ts|js|jsx) --check"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
