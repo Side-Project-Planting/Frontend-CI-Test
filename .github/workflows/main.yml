@@ -2,6 +2,7 @@ name: PR test before merging
 on:
   pull_request:
     branches: [dev, main]
+  workflow_dispatch:
 
 jobs:
   CI-Test:
@@ -9,6 +10,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Cache dependencies
         id: cache
@@ -38,6 +41,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Cache dependencies
         id: cache
