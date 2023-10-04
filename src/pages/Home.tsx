@@ -94,7 +94,6 @@ export default function Main() {
         <LoginPolicy>
           <span>로그인은 개인 정보 보호 정책 및 서비스 약관에 동의하는 것을 의미하며,</span>
           <span>서비스 이용을 위해 이메일과 이름을 수집합니다.</span>
-          <span>서비스 이용을 위해 이메일과 이름을 수집합니다.</span>
         </LoginPolicy>
       </MainContainer>
     </MainWrapper>
