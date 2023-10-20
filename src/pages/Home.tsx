@@ -66,6 +66,7 @@ export default function Main() {
         <Descripton>
           <span>
             혼자 혹은 동료와 새로운 <HighlightSpan>플랜</HighlightSpan>을 생성해보세요.
+            혼자 혹은 동료와 새로운 <HighlightSpan>플랜</HighlightSpan>을 생성해보세요.
           </span>
         </Descripton>
         <GoogleOAuthButton type="button" onClick={requestGoogleOAuth}>
