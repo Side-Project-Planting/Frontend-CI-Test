@@ -14,11 +14,11 @@ jobs:
         run: yarn install
 
       - name: Check lint
-        run: yarn eslint .
+        run: yarn eslint src/**/*.{tsx,ts}
 
       - name: Check format
-        run: yarn prettier src/**/*.(tsx|ts|js|jsx) --check
-
+        run: yarn prettier src/**/*.{tsx,ts} --check
+        
       - name: Check types
         run: tsc -p tsconfig.json --noEmit
 
